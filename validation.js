@@ -9,7 +9,16 @@ function validation(){
      var password_check =/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}/ ;
      var email_check = /^[A-Za-z_]{3,}@[A-Za-z]{3,}[.]{1}[A-Za-z.]{2,6}$/ ;
      var mobile_check= /^[789][0-9]{9}$/ ;
-    
+
+     
+
+
+
+
+
+
+
+     
      if(user_check.test(username)){
          document.getElementById('usererror').innerHTML =" ";
      }else{
